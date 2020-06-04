@@ -176,7 +176,7 @@ program three_bodies
         !                                                                                                                !
         !-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=! 
 
-        !-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- writing the results =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=! 
+        !-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= writing the results =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=! 
         !                                                                                                                ! 
             if (h < 0.01) then      ! this command only has the utility of preventing the program 
                 w = nint(0.01/h)    ! from printing a surreal amount of values in the output file
