@@ -8,7 +8,7 @@ class TinderBot():
     def login(self):
         self.driver.get('https://tinder.com/?lang=pt')
 
-        sleep(30)
+        sleep(60)
         
         for i in range(1, 10000):
             sleep(0.5)
