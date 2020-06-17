@@ -1,0 +1,11 @@
+\babel@toc {brazil}{}
+\contentsline {section}{\numberline {1}descri\IeC {\c c}\IeC {\~a}o do c\IeC {\'o}digo}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}resumo}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}descri\IeC {\c c}\IeC {\~a}o do problema f\IeC {\'\i }sico}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}m\IeC {\'e}todos e an\IeC {\'a}lise num\IeC {\'e}rica}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}runge kutta de quarta ordem}{3}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}explica\IeC {\c c}\IeC {\~a}o do c\IeC {\'o}digo}{3}{subsection.1.5}
+\contentsline {section}{\numberline {2}resultados e an\IeC {\'a}lise de dados}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}resultados}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}an\IeC {\'a}lise de dados}{7}{subsection.2.2}
+\contentsline {section}{refer\IeC {\^e}ncia}{8}{section*.2}
