@@ -1,4 +1,2 @@
-from selenium import webdriver
-
-driver = webdriver.Chrome(executable_path=r'./chromedriver')
-driver.get('https://www.youtube.com')
+a,b,c = input('informe 3 numeros: ').split(" ")
+print(a,'',b,'',c)
