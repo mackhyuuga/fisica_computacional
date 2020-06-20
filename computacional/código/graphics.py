@@ -2,7 +2,16 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import numpy as np
 
-input = str(input(('enter the name of the file containing the graphic informations: '))) + '.txt'
+while True:    
+    try:
+        file = str(input(('enter the name of the file containing the graphic informations: '))) + '.txt'
+        dados = open(file, 'r')
+    except FileNotFoundError:
+        print("File not found, try again ")
+        continue
+    else:
+        print("file found")
+        break
 
 x1 = []
 y1 = []
@@ -12,12 +21,11 @@ x3 = []
 y3 = []
 t = []
 
-dados = open(input, 'r')
 dados.seek(141, 0)
 
 for line in dados:
     line = line.strip()
-    X1, Y1, X2, Y2, X3, Y3, T = line.split('      ')
+    X1, Y1, X2, Y2, X3, Y3, T = line.split()
     x1.append(float(X1))
     y1.append(float(Y1))
     x2.append(float(X2))
